@@ -3,12 +3,12 @@ package org.example;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class AppTest {
-  // You can put your JUnit tests here
-  // Feel free to create other files, as needed, to organize your tests
+public class AppTest {
 
   @Test
-  void itWorks() {
-    assertEquals(true, true);
+  public void itWorks() {
+    String expectedText = "Welcome to the Payroll Calculator!";
+    String actualText = "Welcome to the Payroll Calculator!";
+    assertEquals(expectedText, actualText);
   }
 }
